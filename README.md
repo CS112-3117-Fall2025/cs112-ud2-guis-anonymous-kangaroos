@@ -1,8 +1,7 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21238319)
 # Unit Deliverable 2 - Final Project GUI
 <br><br>
-This project is a budgeting app. The application uses Javafx to allow the user to upload files with their financial information. The driver then parses that data and displays the user's finances to the GUI. The user's spending is grouped into categories for users to track their spending habits. The 3 graph types are parsed into 3 distinct classes: PieChart, BarGraph, and LineGraph. Each class is derived from the abstract parent class Chart. Legend class is bare bones but functional. It was included to not throw errors when BarGraph and PieChart classes are tested because both use Legend instance variables.
-
+This project is a budgeting app. The application uses Javafx to allow the user to upload files with their financial information. The driver then parses that data and displays the user's finances to the GUI. The user's spending is grouped into categories for users to track their spending habits. The 3 graph types are parsed into 3 distinct classes: PieChart, BarGraph, and LineGraph. Each class is derived from the abstract parent class Chart.
 <br><br>
 
 ## Group Members
@@ -34,19 +33,21 @@ Isabella Watson, Nick Henao, Asan
 <br><br>
 1. Application upon program launch 
 <br>
-![alt text](GUI_screenshot1.png?raw=true)
+<img src="https://github.com/CS112-3117-Fall2025/cs112-ud2-guis-anonymous-kangaroos/blob/main/GUI_screenshot1.png?raw=true">
 <br><br>
 2. File explorer launched after user presses button
 <br>
-![alt text](GUI_screenshot2.png?raw=true)
+<img src="https://github.com/CS112-3117-Fall2025/cs112-ud2-guis-anonymous-kangaroos/blob/main/GUI_screenshot2.png?raw=true">
+
 <br><br>
 3. User selects .txt file with budget information
 <br>
-![alt text](GUI_screenshot3.png?raw=true)
+<img src="https://github.com/CS112-3117-Fall2025/cs112-ud2-guis-anonymous-kangaroos/blob/main/GUI_screenshot3.png?raw=true">
 <br><br>
 4. Program parses data from .txt file and creates 2 arrays: double spending[] and String categories[]. It then feeds these 2 arrays to the PieChart class which tabulates spending by category to display back to user on the GUI.
 <br>
-![alt text](GUI_screenshot4.png?raw=true)
+<img src="https://github.com/CS112-3117-Fall2025/cs112-ud2-guis-anonymous-kangaroos/blob/main/GUI_screenshot4.png?raw=true">
+
 <br><br>
 
 
