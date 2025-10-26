@@ -11,10 +11,10 @@ Isabella Watson, Nick Henao, Asan
 
 ## Project Requirements
 <br><br>
-<b>Wireframe Design:</b> png image included in GitHub repo Main branch ("UD2Wireframe.drawio.png")
+<b>Wireframe Design:</b> png image included in GitHub repo Main branch ("UD2Wireframe.drawio.png") and included in readme.
 <br><br>
 
-<b> Java GUI in IntelliJ:</b> 4x .png screenshots included in GitHub repo Main branch. Also zipped up IntelliJ project and included in GitHub Repo: BudgetingApp.zip
+<b> Java GUI in IntelliJ:</b> 4x .png screenshots included in GitHub repo Main branch and included in readme. Also zipped up IntelliJ project and included in GitHub Repo: BudgetingApp.zip
 <br><br>
 
 <b>Integrate your model class from UD1 into the GUI project for at least one feature:</b> Integrated the abstract class "Chart" and derived class "PieChart" to manage budget data uploaded by the user. The GUI allows the user to upload a .txt file of their spending and the program parses the data into category, amount spent, and date. It then feeds the category array and amount spent array into a PieChart object to manipulate the data and print it back to the user.
